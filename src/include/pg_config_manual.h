@@ -40,7 +40,7 @@
  * Changing this does not require an initdb, but it does require a full
  * backend recompile (including any user-defined C functions).
  */
-#define FUNC_MAX_ARGS		100
+define FUNC_MAX_ARGS		512
 
 /*
  * When creating a product derived from PostgreSQL with changes that cause
@@ -66,7 +66,7 @@
  *
  * Changing this requires an initdb.
  */
-#define INDEX_MAX_KEYS		32
+define INDEX_MAX_KEYS		512
 
 /*
  * Maximum number of columns in a partition key
